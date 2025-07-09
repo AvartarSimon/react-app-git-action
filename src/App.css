@@ -41,3 +41,29 @@
 .read-the-docs {
   color: #888;
 }
+
+.outer {
+  width: 500px;
+  height: 500px;
+  background: lightgray;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+
+  background: pink;
+  gap: 10px;
+}
+
+.item {
+  background: white;
+  text-align: center;
+    display: flex;
+   align-items: center; 
+  justify-content: center;  
+  
+}
