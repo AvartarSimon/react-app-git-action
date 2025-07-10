@@ -1,12 +1,12 @@
 
-type Item = {
-    userId: number,
-    id: number,
-    body: string,
-    title: string,
-}
+// type Item = {
+//     userId: number,
+//     id: number,
+//     body: string,
+//     title: string,
+// }
 
-const InitialData = [{ userId: 0, id: 0, body: '', title: '' }]
+// const InitialData = [{ userId: 0, id: 0, body: '', title: '' }]
 
 // export const About = () => {
 //     const [data, setData] = useState<Item[]>(InitialData);
