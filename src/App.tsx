@@ -9,7 +9,7 @@ import { NotFound } from './pages/NotFound';
 function App() {
   const location = useLocation();
   const [selectedKey, setSelectedKey] = useState(location.pathname);
-
+  console.log("!!! this is from app")
   useEffect(() => {
     setSelectedKey(location.pathname);
   }, [location.pathname]);
